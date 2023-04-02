@@ -13,11 +13,11 @@ import { icons, SIZES } from "../../../constants";
 
 import styles from "./welcome.style";
 
-const jobTypes = ["Full-time", "Part-time", "Contractor"];
+const jobTypes = ["Tempo Integral", "Meio Período", "Freelancer"];
 
 const Welcome = () => {
   const router = useRouter();
-  const [activeJobType, setActiveJobType] = useState("Full-time");
+  const [activeJobType, setActiveJobType] = useState("Tempo Integral");
 
   return (
     <View>

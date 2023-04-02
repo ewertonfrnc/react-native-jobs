@@ -18,7 +18,7 @@ import styles from "./popularjobs.style";
 const Popularjobs = () => {
   const router = useRouter();
   const { data, isLoading, error } = useFetch("search", {
-    query: "React developer",
+    query: "desenvolvedor frontend",
     num_pages: 1,
   });
 
